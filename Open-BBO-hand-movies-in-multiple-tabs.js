@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         Open BBO hand movies in multiple tabs
-// @namespace    https://github.com/kiat-huang
 // @version      0.1
 // @description  BBO returns a list of hands as Movies or LIN download - this button opens all Movies up in tabs at once so you can play through, then close moving on smoothly to the next one
-// @author       Kiat Huang
-// @license      https://spdx.org/licenses/GPL-3.0-or-later.html
+// @copyright    2019, Kiat Huang
+// @license      GPL-3.0-or-later; https://spdx.org/licenses/GPL-3.0-or-later.html
+// @namespace    https://github.com/kiat-huang
+// @author       kiat-huang
 // @match        *://www.bridgebase.com/myhands/hands.php*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // ==/UserScript==
+
 
 (function() {
     'use strict';
